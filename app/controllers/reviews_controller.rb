@@ -8,7 +8,7 @@ class ReviewsController < ApplicationController
   def create
   	@review = Review.create(review_params)
   	@review.save
-  	redirect_to controller: :products, action: :index
+  	# redirect_to controller: :products, action: :index
   end
 
 
